@@ -1,5 +1,14 @@
 /* V3 */ 
 
+body>#vue-app, body>#vue-error {
+    background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-dilemmata.jpg) !important;
+}
+
+#page-body .container-max {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 div nav ul.breadcrumb li.breadcrumb-item a {
     color: #fff !important;
 }
