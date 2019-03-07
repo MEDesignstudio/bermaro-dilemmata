@@ -1,0 +1,43 @@
+{
+    "version"           :   "0.0.1",
+    "license"           :   "Dilemmata",
+    "name"              :   "DilemmataTheme",
+    "marketplaceName"   :   {"de":"Dilemmata Theme","en":"Dilemmata Theme"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "mail@dilemmata.de",
+    "phone"             :   "+49 961 - 930 49 37",
+    "description"       :   "Das Dilemmata Design Theme.",
+    "shortDescription"  :   { "de": "Das Dilemmata Design Theme.", "en": "The Dilemmata Design Theme." },
+    "namespace"         :   "DilemmataTheme",
+    "author"            :   "Dilemmata GmbH",
+    "keywords"          :   ["dilemmata", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "DilemmataTheme\\Providers\\DilemmataThemeServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"DilemmataTheme\\Containers\\DilemmataThemeContainer",
+            "name"          :"Stylesheet",
+            "description"   :"Add changes to the CSS file"
+        },
+        {
+            "key"           :"DilemmataTheme\\Containers\\DilemmataThemeItemListContainer1",
+            "name"          :"First item list",
+            "description"   :"Display a configurable list of items in your online store"
+        },
+        {
+            "key"           :"DilemmataTheme\\Containers\\DilemmataThemeItemListContainer2",
+            "name"          :"Second item list",
+            "description"   :"Display a configurable list of items in your online store"
+        },
+        {
+            "key"           :"DilemmataTheme\\Containers\\DilemmataThemeItemListContainer3",
+            "name"          :"Third item list",
+            "description"   :"Display a configurable list of items in your online store"
+        }
+    ]
+}
